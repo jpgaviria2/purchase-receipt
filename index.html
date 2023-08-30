@@ -5,10 +5,23 @@
 </head>
 <body>
     <div style="text-align: center;">
-        <a href="https://merchants.bullbitcoin.com/apps/2icUSQZHf2ViWGNYe7PpidwqoRW4/pos">Return to BTCPAY </a>
-        <a href="https://petit-bombon.square.site/">Return to Square </a>
+        <button onclick="redirectToBTCPAY()">Return to BTC PAY</button>
+        <button onclick="redirectToSquare()">Return to Square</button>
         <img src="receipt.jpg" alt="Image">
         <p>Thank you for your order</p>
     </div>
+
+    <script>
+        function redirectToBTCPAY() {
+            window.location.href = "https://merchants.bullbitcoin.com/apps/2icUSQZHf2ViWGNYe7PpidwqoRW4/pos";
+        }
+    </script>
+
+    <script>
+        function redirectToSquare() {
+            window.location.href = "https://petit-bombon.square.site/";
+        }
+    </script>
+    
 </body>
 </html>
